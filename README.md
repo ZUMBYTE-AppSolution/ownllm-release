@@ -7,7 +7,7 @@ OwnLLM Studio ist ein lokaler Assistent für Windows. Du sammelst Gespräche in 
 
 | Ausgabe | Download |
 | --- | --- |
-| Windows, 64 Bit | [Installer 0.4.6 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.6/OwnLLM-Studio-0.4.6-Windows-Setup.exe) |
+| Windows, 64 Bit | [Installer 0.4.7 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.7/OwnLLM-Studio-0.4.7-Windows-Setup.exe) |
 
 Der Installer enthält die Programmdateien und bietet eine Desktopverknüpfung an. Ein Sprachmodell kann bei der Einrichtung zusätzlich heruntergeladen werden. Visual Studio oder andere Entwicklungswerkzeuge brauchst du für die Nutzung nicht.
 
@@ -43,17 +43,13 @@ Die Bilder zeigen Beispielprojekte und einen lokal erzeugten App-Entwurf. Die Pa
 
 Seitenleiste, Gespräch und Vorschau lassen sich in der Breite verschieben. Während eines Auftrags zeigt die App die aktuelle Arbeitsphase an.
 
-## Neu in 0.4.6
+## Neu in 0.4.7
 
-- **Bild erstellen** in der Seitenleiste: ein Motiv beschreiben und direkt auf dem Rechner erzeugen lassen.
-- SDXL 1.0 und Stable Diffusion 1.5 unter **Einstellungen → Bilder** auswählen und kostenlos herunterladen.
-- Eigene Speicherorte für Bildmodelle und fertige Bilder; Downloads lassen sich anhalten und fortsetzen.
-- Automatische Beschleunigung, GPU über Vulkan oder Nur CPU unabhängig vom Sprachmodell wählen.
-- Fertige Bilder im Chat und in der Arbeitsfläche ansehen, speichern oder im Browser öffnen. Stopp beendet die Bilderzeugung.
+- Der Rechtsklick auf Chatnachrichten öffnet das Menü wieder ohne Absturz.
+- Das Titelfeld im Meldedialog ist vollständig sichtbar und lässt sich bearbeiten.
+- Kompakte Eingabefelder zeigen ihren Inhalt vollständig, auch bei Bildgröße und Bildschritten.
 
-![Lokal mit SDXL erzeugtes Bild in OwnLLM](assets/screenshots/ownllm-bilderzeugung.png)
-
-Die Modelle haben eigene Lizenzen, die bei der Auswahl verlinkt sind. Nach dem Download funktioniert die Bilderzeugung ohne Internetverbindung oder Konto bei einem Bilddienst.
+![Chatmenü mit Kopieren und Fehler melden](assets/screenshots/ownllm-chat-kontextmenue.png)
 
 [Ausführlicher Changelog](CHANGELOG.md)
 

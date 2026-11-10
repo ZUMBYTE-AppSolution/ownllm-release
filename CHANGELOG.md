@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.7 · 10. November 2026
+
+- Absturz beim Rechtsklick auf Chatnachrichten behoben. Menüeinträge und Trennlinien verwenden getrennte Vorlagen.
+- Titelfeld im Meldedialog sichtbar und bearbeitbar; Nachricht und automatische Versionsangabe werden weiterhin übernommen.
+- Doppelte Innenabstände in Textfeldern entfernt. Kompakte Eingabefelder für Bildmaße und Bildschritte zeigen ihre Werte vollständig.
+
 ## 0.4.6 · 10. November 2026
 
 - Bilder direkt in OwnLLM erstellen und im Chat, in der Mediathek und in der Arbeitsfläche ansehen, speichern oder im Browser öffnen.
