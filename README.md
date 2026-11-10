@@ -1,13 +1,13 @@
 <p align="center"><img src="assets/app-icon.png" width="112" height="112" alt="OwnLLM Studio"></p>
 <h1 align="center">OwnLLM Studio</h1>
-<p align="center">Chats, Projekte und App-Entwürfe auf deinem Rechner.</p>
+<p align="center">Chats, Projekte, App-Entwürfe und Bilder auf deinem Rechner.</p>
 <p align="center"><a href="https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/latest">Herunterladen</a> · <a href="CHANGELOG.md">Changelog</a> · <a href="https://github.com/ZUMBYTE-AppSolution/ownllm-release/issues">Fehler melden</a></p>
 
-OwnLLM Studio ist ein lokaler Assistent für Windows. Du sammelst Gespräche in Projekten, arbeitest mit deinen Dateien und lässt dir App-Entwürfe als bedienbare Vorschau erstellen. Das Sprachmodell läuft auf deinem Computer; Chats und Dateien werden in den von dir gewählten Ordnern gespeichert.
+OwnLLM Studio ist ein lokaler Assistent für Windows. Du sammelst Gespräche in Projekten, arbeitest mit deinen Dateien und lässt dir App-Entwürfe als bedienbare Vorschau und Bilder aus einer Beschreibung erstellen. Das Sprachmodell läuft auf deinem Computer; Chats und Dateien werden in den von dir gewählten Ordnern gespeichert.
 
 | Ausgabe | Download |
 | --- | --- |
-| Windows, 64 Bit | [Installer 0.4.5 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.5/OwnLLM-Studio-0.4.5-Windows-Setup.exe) |
+| Windows, 64 Bit | [Installer 0.4.6 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.6/OwnLLM-Studio-0.4.6-Windows-Setup.exe) |
 
 Der Installer enthält die Programmdateien und bietet eine Desktopverknüpfung an. Ein Sprachmodell kann bei der Einrichtung zusätzlich heruntergeladen werden. Visual Studio oder andere Entwicklungswerkzeuge brauchst du für die Nutzung nicht.
 
@@ -36,22 +36,24 @@ Die Bilder zeigen Beispielprojekte und einen lokal erzeugten App-Entwurf. Die Pa
 | **Chats und Projekte** | Gespräche unter Projektordnern sammeln, Ordner auf- und zuklappen und wichtige Chats oder Projekte anpinnen. |
 | **Chat und Arbeit** | Fragen besprechen oder einen Auftrag mit Planung, Umsetzung und anschließender Kontrolle bearbeiten lassen. |
 | **App-Entwürfe** | Oberflächen mit Menüs, verschiedenen Ansichten und Dialogen erstellen und direkt ausprobieren. Die Vorschau lässt sich auch im Browser öffnen. |
+| **Bilder** | Kostenlose Bildmodelle herunterladen und Bilder mit GPU oder CPU direkt auf dem Rechner erzeugen. |
 | **Dateien** | Dateien an Gespräche anhängen, in der Mediathek verwalten und erstellte Dokumente oder Projektdateien speichern. |
 | **Archiv** | Chats und Projekte ausblenden und später wiederherstellen. Dauerhaftes Löschen wird vorher bestätigt. |
 | **Eigene Speicherorte** | Ordner für Chats, Dateien, Projekte, Modelle und Cache selbst festlegen. |
 
 Seitenleiste, Gespräch und Vorschau lassen sich in der Breite verschieben. Während eines Auftrags zeigt die App die aktuelle Arbeitsphase an.
 
-## Neu in 0.4.5
+## Neu in 0.4.6
 
-- Fehler oben in der App oder per Rechtsklick melden. Du prüfst den Text vor dem Senden; die installierte Version wird automatisch ergänzt.
-- Verlangte HTML-Dateien als echte, geprüfte Datei erhalten.
-- Aufträge und Teilaufgaben laufen ohne feste Grenze für Werkzeugschritte weiter. Stopp bleibt jederzeit verfügbar.
-- Angepinnte Projekte öffnen den zuletzt besuchten Chat – auch nach einem Neustart.
-- Unter **Einstellungen → Modelle → Rechenleistung** zwischen Automatisch, GPU und Nur CPU wählen und die tatsächliche Belegung ansehen.
-- Mockups mit mehreren Installationsdialogen zuverlässiger erstellen und ändern.
-- Flaches einzeiliges Suchfeld und ein deutliches Stoppsymbol.
-- Zumbyte-Copyright und ein eigener Infodialog mit Kontakt und Lizenztexten.
+- **Bild erstellen** in der Seitenleiste: ein Motiv beschreiben und direkt auf dem Rechner erzeugen lassen.
+- SDXL 1.0 und Stable Diffusion 1.5 unter **Einstellungen → Bilder** auswählen und kostenlos herunterladen.
+- Eigene Speicherorte für Bildmodelle und fertige Bilder; Downloads lassen sich anhalten und fortsetzen.
+- Automatische Beschleunigung, GPU über Vulkan oder Nur CPU unabhängig vom Sprachmodell wählen.
+- Fertige Bilder im Chat und in der Arbeitsfläche ansehen, speichern oder im Browser öffnen. Stopp beendet die Bilderzeugung.
+
+![Lokal mit SDXL erzeugtes Bild in OwnLLM](assets/screenshots/ownllm-bilderzeugung.png)
+
+Die Modelle haben eigene Lizenzen, die bei der Auswahl verlinkt sind. Nach dem Download funktioniert die Bilderzeugung ohne Internetverbindung oder Konto bei einem Bilddienst.
 
 [Ausführlicher Changelog](CHANGELOG.md)
 

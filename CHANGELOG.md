@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.6 · 10. November 2026
+
+- Bilder direkt in OwnLLM erstellen und im Chat, in der Mediathek und in der Arbeitsfläche ansehen, speichern oder im Browser öffnen.
+- SDXL 1.0 und Stable Diffusion 1.5 unter Einstellungen → Bilder auswählen und kostenlos herunterladen. Downloadgröße und Modelllizenz stehen bei der Auswahl.
+- Getrennte, frei wählbare Speicherorte für Bildmodelle und fertige Bilder. Der Installer bietet den zusätzlichen Bereich Bildmodelle an; spätere Änderungen übernehmen vorhandene Modelle.
+- Downloads anhalten und fortsetzen. Modelldateien und Bildlaufzeit werden vor der Nutzung vollständig geprüft.
+- Eigene Auswahl für Automatisch, GPU über Vulkan und Nur CPU. Der verwaltete Sprachdienst gibt vor GPU-Bildern seinen Grafikspeicher frei.
+- Stopp beendet die Bilderzeugung. Abgebrochene Bilder werden nicht als Ergebnis gespeichert.
+- Änderungen an Speicherorten werden auch für spätere Installer-Updates nachgeführt.
+
 ## 0.4.5 · 10. November 2026
 
 - Ausgaben und Fehler direkt aus der App an Zumbyte melden. Meldedialog mit bearbeitbarem Text und automatischer App-Version; technische Angaben sind abwählbar.
