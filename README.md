@@ -7,7 +7,7 @@ OwnLLM Studio ist ein lokaler Assistent für Windows. Du sammelst Gespräche in 
 
 | Ausgabe | Download |
 | --- | --- |
-| Windows, 64 Bit | [Installer 0.4.4 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.4/OwnLLM-Studio-0.4.4-Windows-Setup.exe) |
+| Windows, 64 Bit | [Installer 0.4.5 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.5/OwnLLM-Studio-0.4.5-Windows-Setup.exe) |
 
 Der Installer enthält die Programmdateien und bietet eine Desktopverknüpfung an. Ein Sprachmodell kann bei der Einrichtung zusätzlich heruntergeladen werden. Visual Studio oder andere Entwicklungswerkzeuge brauchst du für die Nutzung nicht.
 
@@ -42,13 +42,16 @@ Die Bilder zeigen Beispielprojekte und einen lokal erzeugten App-Entwurf. Die Pa
 
 Seitenleiste, Gespräch und Vorschau lassen sich in der Breite verschieben. Während eines Auftrags zeigt die App die aktuelle Arbeitsphase an.
 
-## Neu in 0.4.4
+## Neu in 0.4.5
 
-- Eigene dunkle Kontextmenüs und Dialoge, auch für die Datei- und Ordnerauswahl.
-- Chats und Projekte archivieren, wiederherstellen oder löschen.
-- Mockups vor dem Speichern auf bedienbare Menüs, Dialoge und eine schmale Fensteransicht prüfen. Die bisherige Vorschau bleibt bei fehlgeschlagenen Änderungen erhalten.
-- Updates direkt in der App herunterladen und installieren.
-- Fehler beim ersten Einrichten des Cacheordners behoben.
+- Fehler oben in der App oder per Rechtsklick melden. Du prüfst den Text vor dem Senden; die installierte Version wird automatisch ergänzt.
+- Verlangte HTML-Dateien als echte, geprüfte Datei erhalten.
+- Aufträge und Teilaufgaben laufen ohne feste Grenze für Werkzeugschritte weiter. Stopp bleibt jederzeit verfügbar.
+- Angepinnte Projekte öffnen den zuletzt besuchten Chat – auch nach einem Neustart.
+- Unter **Einstellungen → Modelle → Rechenleistung** zwischen Automatisch, GPU und Nur CPU wählen und die tatsächliche Belegung ansehen.
+- Mockups mit mehreren Installationsdialogen zuverlässiger erstellen und ändern.
+- Flaches einzeiliges Suchfeld und ein deutliches Stoppsymbol.
+- Zumbyte-Copyright und ein eigener Infodialog mit Kontakt und Lizenztexten.
 
 [Ausführlicher Changelog](CHANGELOG.md)
 
@@ -78,3 +81,5 @@ Beim Löschen eines Chats bleiben seine Dateien im Projekt erhalten. Beim Entfer
 [Fehler melden](https://github.com/ZUMBYTE-AppSolution/ownllm-release/issues) · [Alle Downloads](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases) · [Zumbyte – AppSolution](https://www.zumbyte.de)
 
 Nenne bei einem Fehler bitte die verwendete Version und die Schritte, bei denen er auftritt.
+
+© 2026 Zumbyte AppSolution · [Impressum](https://www.zumbyte.de/impressum/) · [Datenschutz auf zumbyte.de](https://www.zumbyte.de/datenschutz/)

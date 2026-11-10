@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.5 · 10. November 2026
+
+- Ausgaben und Fehler direkt aus der App an Zumbyte melden. Meldedialog mit bearbeitbarem Text und automatischer App-Version; technische Angaben sind abwählbar.
+- Eigene Fehlerliste im Zumbyte-Adminbereich mit Status, Priorität und Bearbeitungsverlauf.
+- HTML-Dateien werden vollständig erzeugt, geprüft, gespeichert und zurückgelesen. Bloße Erstellungsankündigungen gelten nicht mehr als fertiges Ergebnis.
+- Keine feste Grenze für Werkzeugschritte pro Auftrag oder Teilaufgabe. Stopp bleibt jederzeit verfügbar.
+- Angepinnte Projekte öffnen den zuletzt besuchten Chat; die Auswahl bleibt nach dem Neustart erhalten. Archivierte oder gelöschte Chats werden übersprungen.
+- GPU-/CPU-Auswahl unter Einstellungen → Modelle → Rechenleistung. Die Anzeige zeigt die tatsächlich geladene Modellbelegung.
+- Wiederholte Dialoge und Formularfelder in Mockups werden vor dem Speichern abgeglichen. Eindeutige Verweise bleiben bedienbar; unklare Zuordnungen gehen zur Korrektur zurück an das Modell.
+- Kompakte einzeilige Suche und ausgefülltes Stoppsymbol.
+- Zumbyte-Copyright in der Seitenleiste und im Installer. Eigener Infodialog mit Version, Herausgeber, Kontakt, Impressum, Datenschutz und mitgelieferten Lizenztexten.
+
 ## 0.4.4 · 10. November 2026
 
 ### Oberfläche
