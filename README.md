@@ -7,7 +7,7 @@ OwnLLM Studio ist ein lokaler Assistent für Windows. Du sammelst Gespräche in 
 
 | Ausgabe | Download |
 | --- | --- |
-| Windows, 64 Bit | [Installer 0.4.7 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.7/OwnLLM-Studio-0.4.7-Windows-Setup.exe) |
+| Windows, 64 Bit | [Installer 0.4.9 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.9/OwnLLM-Studio-0.4.9-Windows-Setup.exe) |
 
 Der Installer enthält die Programmdateien und bietet eine Desktopverknüpfung an. Ein Sprachmodell kann bei der Einrichtung zusätzlich heruntergeladen werden. Visual Studio oder andere Entwicklungswerkzeuge brauchst du für die Nutzung nicht.
 
@@ -33,23 +33,27 @@ Die Bilder zeigen Beispielprojekte und einen lokal erzeugten App-Entwurf. Die Pa
 
 | Bereich | Funktionen |
 | --- | --- |
-| **Chats und Projekte** | Gespräche unter Projektordnern sammeln, Ordner auf- und zuklappen und wichtige Chats oder Projekte anpinnen. |
+| **Chats und Projekte** | Gespräche unter Projektordnern sammeln, lange Verläufe automatisch verwalten und wichtige Chats oder Projekte anpinnen. Originalnachrichten bleiben nachlesbar. |
 | **Chat und Arbeit** | Fragen besprechen oder einen Auftrag mit Planung, Umsetzung und anschließender Kontrolle bearbeiten lassen. |
 | **App-Entwürfe** | Oberflächen mit Menüs, verschiedenen Ansichten und Dialogen erstellen und direkt ausprobieren. Die Vorschau lässt sich auch im Browser öffnen. |
-| **Bilder** | Kostenlose Bildmodelle herunterladen und Bilder mit GPU oder CPU direkt auf dem Rechner erzeugen. |
+| **Bilder und App-Icons** | Das eingerichtete Bildmodell direkt aus dem Chat verwenden. Ein Klick auf das Vorschaubild öffnet die große Bildansicht. |
+| **Sprachmodelle** | Gemma, Qwen und weitere Familien im aktuellen Ollama-Verzeichnis durchsuchen, eine Variante auswählen und einzeln herunterladen. Größe und Speicher werden vorab geprüft. |
 | **Dateien** | Dateien an Gespräche anhängen, in der Mediathek verwalten und erstellte Dokumente oder Projektdateien speichern. |
 | **Archiv** | Chats und Projekte ausblenden und später wiederherstellen. Dauerhaftes Löschen wird vorher bestätigt. |
 | **Eigene Speicherorte** | Ordner für Chats, Dateien, Projekte, Modelle und Cache selbst festlegen. |
 
 Seitenleiste, Gespräch und Vorschau lassen sich in der Breite verschieben. Während eines Auftrags zeigt die App die aktuelle Arbeitsphase an.
 
-## Neu in 0.4.7
+## Neu in 0.4.9
 
-- Der Rechtsklick auf Chatnachrichten öffnet das Menü wieder ohne Absturz.
-- Das Titelfeld im Meldedialog ist vollständig sichtbar und lässt sich bearbeiten.
-- Kompakte Eingabefelder zeigen ihren Inhalt vollständig, auch bei Bildgröße und Bildschritten.
+- Lange Chats werden automatisch zusammengefasst; wichtige Vorgaben und Dateiverweise bleiben erhalten. Passende Originalauszüge und ausdrücklich genannte Dateien werden nachgeladen. Die bisherige Sperre nach 1000 Nachrichten entfällt.
+- Aufträge wie „Erstelle für diese App ein passendes Icon“ verwenden automatisch die eingerichtete Bildgenerierung. Bilder erscheinen als anklickbare Thumbnails mit Vollansicht und Speichermöglichkeit.
+- Gemma-, Qwen- und weitere Modellfamilien mit ihren verfügbaren Größen- und Qualitätsvarianten durchsuchen. Vor dem Download zeigt OwnLLM die konkrete Größe und den benötigten Speicher an.
+- Umgangssprachliche HTML-Anleitungsaufträge werden als Dateiaufträge erkannt. Leere Modellantworten nach einer ausgeschöpften Längengrenze werden gezielt erneut angefordert.
 
-![Chatmenü mit Kopieren und Fehler melden](assets/screenshots/ownllm-chat-kontextmenue.png)
+![Modellfamilien und Varianten auswählen und Downloadgröße prüfen](assets/screenshots/ownllm-modellkatalog.png)
+
+![Ein lokal erzeugtes Beispielbild in der großen Bildansicht](assets/screenshots/ownllm-bild-vollansicht.png)
 
 [Ausführlicher Changelog](CHANGELOG.md)
 

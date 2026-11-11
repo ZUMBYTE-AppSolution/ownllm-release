@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.9 · 11. November 2026
+
+- Automatische, fortgeschriebene Gesprächszusammenfassungen und gezieltes Nachlesen älterer Nachrichten. Originale bleiben erhalten; Notizen überstehen Neustarts.
+- Sperre nach 1000 Nachrichten entfernt. Ältere Nachrichten werden separat gespeichert, bei Bedarf angezeigt und bei Umzug oder Import übernommen.
+- App-Icons und andere Bildaufträge direkt aus dem Chat mit der eingerichteten Bildgenerierung erstellen. Kombinierte App-und-Icon-Aufträge liefern Code und Bild.
+- Anklickbare Bild-Thumbnails im Chat, große Vollansicht mit Speichern und Escape in Windows und Web.
+- Aktuelles Ollama-Modellverzeichnis mit Gemma-, Qwen- und weiteren Familien, verfügbaren Tags und eigenen Modellnamen. Größen- und Speicherprüfung vor Downloads; tatsächliche Fähigkeiten installierter Modelle berücksichtigen.
+
+## 0.4.8 · 11. November 2026 · in 0.4.9 enthalten
+
+- Umgangssprachliche HTML-Aufträge wie „mach mir die Anleitung schön als gestyltes HTML“ erzeugen eine vollständige, geprüfte Datei.
+- Vorherige Anleitungstexte und zugehörige Dokumente werden im HTML-Ablauf als Kontext berücksichtigt.
+- Bei leeren, wegen einer Längengrenze abgeschnittenen Ollama-Antworten werden Kontext- und Ausgabelimit für die begrenzten Wiederholungen angepasst. Bereits zurückgegebene Werkzeugaufrufe werden nicht wiederholt.
+
 ## 0.4.7 · 10. November 2026
 
 - Absturz beim Rechtsklick auf Chatnachrichten behoben. Menüeinträge und Trennlinien verwenden getrennte Vorlagen.
