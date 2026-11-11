@@ -7,9 +7,9 @@ OwnLLM Studio ist ein lokaler Assistent für Windows. Du sammelst Gespräche in 
 
 | Ausgabe | Download |
 | --- | --- |
-| Windows, 64 Bit | [Installer 0.4.9 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.9/OwnLLM-Studio-0.4.9-Windows-Setup.exe) |
+| Windows, 64 Bit | [Installer 0.4.10 herunterladen](https://github.com/ZUMBYTE-AppSolution/ownllm-release/releases/download/v0.4.10/OwnLLM-Studio-0.4.10-Windows-Setup.exe) |
 
-Der Installer enthält die Programmdateien und bietet eine Desktopverknüpfung an. Ein Sprachmodell kann bei der Einrichtung zusätzlich heruntergeladen werden. Visual Studio oder andere Entwicklungswerkzeuge brauchst du für die Nutzung nicht.
+Der Installer enthält die Programmdateien und bietet eine Desktopverknüpfung an. Beim ersten Start hilft dir ein Modellberater bei der Auswahl und Einrichtung passender Modelle. Visual Studio oder andere Entwicklungswerkzeuge brauchst du für die Nutzung nicht.
 
 ## Einblicke
 
@@ -33,27 +33,33 @@ Die Bilder zeigen Beispielprojekte und einen lokal erzeugten App-Entwurf. Die Pa
 
 | Bereich | Funktionen |
 | --- | --- |
-| **Chats und Projekte** | Gespräche unter Projektordnern sammeln, lange Verläufe automatisch verwalten und wichtige Chats oder Projekte anpinnen. Originalnachrichten bleiben nachlesbar. |
+| **Chats und Projekte** | Gespräche unter Projektordnern sammeln, umbenennen, lange Verläufe automatisch verwalten und wichtige Chats oder Projekte anpinnen. Originalnachrichten bleiben nachlesbar. |
 | **Chat und Arbeit** | Fragen besprechen oder einen Auftrag mit Planung, Umsetzung und anschließender Kontrolle bearbeiten lassen. |
-| **App-Entwürfe** | Oberflächen mit Menüs, verschiedenen Ansichten und Dialogen erstellen und direkt ausprobieren. Die Vorschau lässt sich auch im Browser öffnen. |
+| **App-Entwürfe** | Oberflächen mit Menüs, verschiedenen Ansichten und Dialogen erstellen und direkt ausprobieren. Jeder Chat hat eigene, einzeln schließbare Vorschau-Tabs. |
 | **Bilder und App-Icons** | Das eingerichtete Bildmodell direkt aus dem Chat verwenden. Ein Klick auf das Vorschaubild öffnet die große Bildansicht. |
-| **Sprachmodelle** | Gemma, Qwen und weitere Familien im aktuellen Ollama-Verzeichnis durchsuchen, eine Variante auswählen und einzeln herunterladen. Größe und Speicher werden vorab geprüft. |
+| **Sprachmodelle** | Der Berater berücksichtigt Rechner und Aufgaben. Gemma, Qwen und weitere Familien im Ollama- oder GGUF-Verzeichnis durchsuchen, Varianten prüfen und herunterladen. |
 | **Dateien** | Dateien an Gespräche anhängen, in der Mediathek verwalten und erstellte Dokumente oder Projektdateien speichern. |
 | **Archiv** | Chats und Projekte ausblenden und später wiederherstellen. Dauerhaftes Löschen wird vorher bestätigt. |
 | **Eigene Speicherorte** | Ordner für Chats, Dateien, Projekte, Modelle und Cache selbst festlegen. |
+| **Darstellung** | Die gesamte Windows-Oberfläche von 50 bis 200 Prozent skalieren. Chat-Schriftart und -größe separat wählen. Codeblöcke mit Farben und Kopierknopf. |
+| **Recherche** | Quellen im Web suchen und deren Sachinformationen für Antworten und eigene Umsetzung verwenden. |
 
 Seitenleiste, Gespräch und Vorschau lassen sich in der Breite verschieben. Während eines Auftrags zeigt die App die aktuelle Arbeitsphase an.
 
-## Neu in 0.4.9
+## Neu in 0.4.10
 
-- Lange Chats werden automatisch zusammengefasst; wichtige Vorgaben und Dateiverweise bleiben erhalten. Passende Originalauszüge und ausdrücklich genannte Dateien werden nachgeladen. Die bisherige Sperre nach 1000 Nachrichten entfällt.
-- Aufträge wie „Erstelle für diese App ein passendes Icon“ verwenden automatisch die eingerichtete Bildgenerierung. Bilder erscheinen als anklickbare Thumbnails mit Vollansicht und Speichermöglichkeit.
-- Gemma-, Qwen- und weitere Modellfamilien mit ihren verfügbaren Größen- und Qualitätsvarianten durchsuchen. Vor dem Download zeigt OwnLLM die konkrete Größe und den benötigten Speicher an.
-- Umgangssprachliche HTML-Anleitungsaufträge werden als Dateiaufträge erkannt. Leere Modellantworten nach einer ausgeschöpften Längengrenze werden gezielt erneut angefordert.
+- Neu gestaltete, kompakte Einstellungen und echte Layout-Skalierung in elf Stufen von 50 bis 200 Prozent. Chat-Schriftart und Schriftgröße separat anpassen.
+- Modellberater mit Fragenkatalog beim ersten Start und in den Einstellungen. Nach der Auswahl werden die empfohlenen Modelle heruntergeladen und eingerichtet.
+- GGUF-Modelle von Hugging Face zusätzlich zum Ollama-Verzeichnis, inklusive Varianten, Teildateien und geprüfter Downloads.
+- Eigene Arbeitsfläche pro Chat mit einzeln schließbaren Tabs, Codefarben mit Kopierknopf, nächste Schritte als Auswahl und eine einzeilige farbige Statusanzeige.
+- Webrecherche, umbenennbare Chats und Projekte sowie Fehlermeldungen mit prüfbarem, bereinigtem Gesprächskontext.
+- Verbesserte Mockup-Reparaturen, projektübergreifende Mediathek und behobene Gemma-Einstellungsfehler.
 
-![Modellfamilien und Varianten auswählen und Downloadgröße prüfen](assets/screenshots/ownllm-modellkatalog.png)
+![Die neuen kompakten Einstellungen bei 80 Prozent Oberflächengröße](assets/screenshots/ownllm-einstellungen-0410.png)
 
-![Ein lokal erzeugtes Beispielbild in der großen Bildansicht](assets/screenshots/ownllm-bild-vollansicht.png)
+![Oberflächengröße und Chatdarstellung anpassen](assets/screenshots/ownllm-darstellung-0410.png)
+
+Die neuen Einstellungsbilder stammen aus einer getrennten Testinstanz mit Beispieldaten.
 
 [Ausführlicher Changelog](CHANGELOG.md)
 
@@ -61,8 +67,9 @@ Seitenleiste, Gespräch und Vorschau lassen sich in der Breite verschieben. Wäh
 
 1. Den Windows-Installer herunterladen und öffnen.
 2. Den Programmordner wählen. Unter **Alle Speicherorte** kannst du die Datenordner einzeln festlegen.
-3. Bei Bedarf ein lokales Modell einrichten und die Desktopverknüpfung auswählen.
-4. **OwnLLM starten** anklicken und ein Projekt oder einen neuen Chat anlegen.
+3. Die Desktopverknüpfung auswählen und **OwnLLM starten** anklicken.
+4. Im Modellberater die gewünschten Aufgaben und Prioritäten auswählen, die Empfehlung prüfen und **Herunterladen und einrichten** anklicken.
+5. Nach der Einrichtung ein Projekt oder einen neuen Chat anlegen. Der Berater bleibt unter **Einstellungen → Modellberater** erreichbar.
 
 Das Sprachmodell benötigt zusätzlichen Speicherplatz. Die Qualität und Geschwindigkeit der Antworten hängen vom Modell und deinem Rechner ab. Für die Live-Vorschau wird [Microsoft Edge WebView2](https://developer.microsoft.com/microsoft-edge/webview2/) benötigt.
 

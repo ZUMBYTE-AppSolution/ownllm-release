@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.10 · 11. November 2026
+
+- Kompakte Windows-Einstellungen mit klarer Navigation, Karten und fester Aktionsleiste. Echte Layout-Skalierung von 50 bis 200 Prozent; Chat-Schriftart und -größe separat einstellbar.
+- Modellberater beim ersten Start und in den Einstellungen: Aufgaben, Prioritäten und Hardware berücksichtigen, Downloadumfang zeigen und nach Auswahl Modelle herunterladen und konfigurieren.
+- GGUF-Verzeichnis von Hugging Face zusätzlich zu Ollama. Varianten, geteilte Gewichte und Bildprojektoren; fortsetzbare Downloads mit Größen-, SHA-256- und Formatprüfung vor dem Import.
+- Chatbezogene Arbeitsfläche mit einzeln schließbaren Tabs. Codeblöcke mit Syntaxfarben und Kopierknopf; modellgestützte Vorschläge für nächste Schritte.
+- Einzeilige Statusanzeige mit farbigen pulsierenden Phasensymbolen und rotem Stoppknopf.
+- Webrecherche mit Quellen und Sachinformationen; Codebeispiele werden vor der Weitergabe entfernt.
+- Fehlermeldungen können den letzten Prompt und sichtbare Arbeitsschritte mit bereinigten Zugangsdaten enthalten; Vorschau und Abwahl vor dem Senden.
+- Chats und Projekte über ihr Kontextmenü umbenennen. Mediathek zeigt standardmäßig alle Projekte mit Suche und Filtern.
+- Fehlende Subagenten-Grenzen in älteren Konfigurationen ergänzen; Gemma lässt sich wieder übernehmen.
+- Adaptive Mockup-Reparaturen bei wiederholten Fehlern, sichere Strukturkorrekturen und gezielte Layout-Reparaturen. Browserprüfung berücksichtigt zuerst die zugehörige Ansicht einer Aktion.
+
 ## 0.4.9 · 11. November 2026
 
 - Automatische, fortgeschriebene Gesprächszusammenfassungen und gezieltes Nachlesen älterer Nachrichten. Originale bleiben erhalten; Notizen überstehen Neustarts.
